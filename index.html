@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Complex UI</title>
+    <link rel="icon" href="./images/flight.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,13 +22,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 me-lg-7">
               <li class="nav-item px-lg-2">
-                <a class="nav-link" href="#">Section 1</a>
+                <a class="nav-link" href="#food">Food</a>
               </li>
               <li class="nav-item px-lg-2">
-                <a class="nav-link" href="#">Section 2</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item px-lg-2">
-                <a class="nav-link" href="#">Section 3</a>
+                <a class="nav-link" href="#destinations">Destinations</a>
               </li>
               
             </ul>
@@ -84,143 +85,139 @@
       </div>
 
       <!-- Image and Description -->
-      <div class="container">
-        <div class="row  images">
-            <div class="col-sm-6 col-md-4 g-5">
-                <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="fish fry">
+      <div class="main-container">
+        <div class="image-container" id="food">
+            <div class="image-tile">
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="fish fry">
+                </div>
+                <p>Description</p>
             </div>
-            <div class="col-sm-6 col-md-4 g-5">
-                <img src="https://images.pexels.com/photos/11170284/pexels-photo-11170284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="biriyani">
+            <div class="image-tile">
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/11170284/pexels-photo-11170284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="biriyani">
+                </div>
+                <p>Description</p>
             </div>
-            <div class="col col-md-4 justify-content-sm-center g-5">
-                <img src="https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block" alt="paneer butter masala">
+            <div class="image-tile">
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="burger">
+                </div>
+                <p>Description</p>
             </div>
-        </div>
+          </div>
+
+          <!-- Gallery Section-->
+
+            <div class="grid-container" id="gallery">
+                <div class="item-1">
+                    <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                </div>
+                <div class="item-2">
+                    <div class="item-21">
+                        <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                    </div>
+                    <div class="item-22">
+                        <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                    </div>
+                    <div class="item-23">
+                        <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                    </div>
+                    <div class="item-24">
+                        <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                    </div>
+                </div>
+                <div class="item-3">
+                    <div class="item-31">
+                        <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                    </div>
+                    <div class="item-32">
+                        <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                    </div>
+                </div>
+                <div class="item-4">
+                    <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                </div>
+                <div class="item-5">
+                    <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="some image">
+                </div>
+            </div>
+
+
+            <!-- Image card Section -->
+
+            <div class="card-group position-relative card-container" id="destinations">
+                <div class="card">
+                  <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                 </div>
+                 <div>
+                    <button type="button" class="btn btn-primary">Call to Action</button>
+                 </div>
+                </div>
+                <div class="card">
+                  <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-primary">Call to Action</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-primary">Call to Action</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- Footer Section -->
+
+              <div class="container-fluid bg-body-secondary my-5 top-100 position-relative p-3 footer">
+                <div class="row d-flex flex-md-row flex-column">
+                    <div class="col">
+                        <h3>Useful Links</h3>
+                        <div class="d-flex flex-column">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>More Links</h3>
+                        <div class=" d-flex flex-column">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Contact Us</h3>
+                        <p>Email: contact@email.com</p>
+                        <p>Phone: 123654789</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span>&#169;</span> 2023 Complex UI. All rights reserved.
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-primary float-end" href="#navbar">Back to Top</a>
+                    </div>
+                </div>
+            </div>
+
       </div>
-    
-      <!-- Two rows of images -->
-    
-      <div class="container my-5">
-        <div class="row g-3 p-2">
-            <div class="col">
-                <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-            </div>
-            <div class="col">
-                <div class="row mb-4">
-                    <div class="col">
-                        <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                        <div class="col">
-                            <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-                        </div>
-            </div>
-            </div>
-            <div class="col">           
-                <div class="row mb-4">
-                    <div class="col">
-                        <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-                    </div>
-                </div>        
-            </div>
-        </div>
-        <div class="row g-3 p-2">
-            <div class="col-4">
-                <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-            </div>
-            <div class="col-8">
-                <img src="https://images.pexels.com/photos/17047402/pexels-photo-17047402/free-photo-of-la-gravedad-del-lugar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">
-            </div>
-        </div>
-    </div>
-    
-    
-   
-    <div class="container my-5">
-        <div class="row">
-            <div class="col col-lg-4 col-sm-12 mb-sm-4 mb-lg-0">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Call to action</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-lg-4 col-sm-12 mb-sm-4 mb-lg-0">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Call to action</a>
-                    </div>
-                </div>
-            </div>
-             <div class="col col-lg-4 col-sm-12 mb-sm-4 mb-lg-0">
-                <div class="card">
-                    <img src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Call to action</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   <div class="container-fluid bg-light">
-        <div class="container mt-5 py-5 ">
-            <div class="row my-4">
-                <div class="col">
-                    <h3>Useful Links</h3>
-                    <div class="d-flex flex-column">
-                        <a href="#" >Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-                <div class="col">
-                    <h3>More Links</h3>
-                    <div class="d-flex flex-column">
-                        <a href="#" >Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-                <div class="col">
-                    <h3>Contact Us</h3>
-                    <p>Email: example@gmail.com</p>
-                    <p>Phone Number: 123645587</p>
-                </div>
-            </div>
-            <div class="row d-flex align-items-center my-4">
-                <div class="col">
-                <span>&#169;</span> 2023 Complex UI. All rights reserved.
-                </div>
-                <div class="col">
-                    <a class="btn btn-primary float-end" href="#navbar">Back to Top</a>
-                </div>
-            </div>
-
-        </div>
-   </div>
-    
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
