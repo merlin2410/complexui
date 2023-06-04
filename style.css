@@ -70,6 +70,11 @@
 
 
 
+.footer{
+    top: 100px;
+}
+
+
 
 @media only screen and (max-width: 1230px) {
     .image-container{
